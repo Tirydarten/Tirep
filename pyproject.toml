@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "9-2-basics-git-practice"
+version = "0.1.0"
+description = ""
+authors = ["Artem Volkov <tirydarten@mail.ru>"]
+readme = "README.md"
+packages = [{include = "9"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
